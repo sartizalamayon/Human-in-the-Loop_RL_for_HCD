@@ -1,0 +1,25 @@
+{
+  "model_type": "PPO with Human-in-the-Loop",
+  "total_timesteps": 20000,
+  "train_episodes": 88,
+  "val_episodes": 19,
+  "test_episodes": 20,
+  "validation_results": {
+    "mean_return": -29.83528533589804,
+    "std_return": 33.83827780715194,
+    "mean_in_range_ratio": 0.4543426301940234,
+    "mean_intervention_rate": 0.0
+  },
+  "test_results": {
+    "mean_return": -63.98310911820141,
+    "std_return": 45.26144945439965,
+    "mean_in_range_ratio": 0.25797290603260753,
+    "mean_intervention_rate": 0.0
+  },
+  "reward_model_weights": [
+    0.14689412854323924,
+    -0.11238983345400366,
+    0.09500053955071802
+  ],
+  "n_preferences_collected": 1989
+}
